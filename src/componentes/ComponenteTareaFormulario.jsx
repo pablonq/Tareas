@@ -2,7 +2,7 @@ import Tarea from "./Tarea";
 import TareaFormulario from "./TareaFormulario";
 import '../estilos/ComponenteTareaFormulario.css';
 import { useState } from "react";
-
+import BusquedaFormulario from "./BusquedaFormulario";
 
 function ComponenteTareaFormulario() {
 
@@ -44,7 +44,7 @@ function ComponenteTareaFormulario() {
     setSearch(event.target.value);
   }
 
-  const results = !search ? tareas : tareas.filter((tarea)=> tarea.texto.toLowerCase().includes(search.toLocaleLowerCase()))  
+  const results = !search ? tareas : tareas.filter((tarea) => tarea.texto.toLowerCase().includes(search.toLocaleLowerCase()))
 
   return (
     <> {/* etiquetas vacias (fragmentos), se utilizan cuando no necesitamos un div con un proposito */}
@@ -54,16 +54,13 @@ function ComponenteTareaFormulario() {
       <div className="div">
         <h3>Tareas Completadas: {completada}</h3>
       </div>
-      
+
       <TareaFormulario
         onSubmit={agregarTarea} /> {/* Estoy pasando un props (onSubmit). Cuando se envie el formulario va a llamar a la fcion "agregarTarea" */}
-      <div className="contenedorInput">
-        <input type="text" placeholder="Buscar Tarea" className="form-control search" value={search} onChange={fcionBusqueda} />
-      </div>
-      {/* <BusquedaFormulario 
-    fcionBusqueda={fcionBusqueda}
-    valor = {search}
-     /> */}
+
+      <BusquedaFormulario
+        value={search}
+        onChange={fcionBusqueda} />
 
       <div className="tareas-lista-contenedor">
         {

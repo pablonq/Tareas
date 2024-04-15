@@ -1,10 +1,16 @@
+import '../estilos/BusquedaFormulario.css';
 
-function BusquedaFormulario({fcionBusqueda, valor}){
+function BusquedaFormulario({valor, onChange}){
   return(
-    <div>
-      <input type="text" placeholder="Ingrese tarea" className="form-control" value={valor} onChange={()=>fcionBusqueda()} />
+    <div className='contenedorInput'>
+      <input 
+      type="text" 
+      placeholder="Buscar Tarea" 
+      className="form-control search" 
+      value={valor} 
+      onChange={onChange} />
       
     </div>
-  )
+  );
 }
 export default BusquedaFormulario;

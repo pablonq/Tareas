@@ -13,6 +13,7 @@ function TareaFormulario(props) {
       completada: false
     }
     props.onSubmit(tareaNueva); /*cuando se envie el formulario pasa la tarea nueva como argumento  al padre (componenteTareaFormulario)*/
+    /* setInput(''); */
   }
 
   const manejarCambio = e => {
