@@ -5,7 +5,10 @@ import ComponenteTareaFormulario from './componentes/ComponenteTareaFormulario';
 
 
 
+
 function App() {
+ 
+
   return (
     <div className="tareas">
       <div className='logo-contenedor'>
