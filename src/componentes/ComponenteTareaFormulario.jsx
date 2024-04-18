@@ -17,9 +17,8 @@ function ComponenteTareaFormulario() {
       tarea.texto = tarea.texto.trim(); /* le quito los espacios antes y despues de la cadena */
       const tareaActualizada = [tarea, ...tareas]; /* Agrega al principo "tarea" y luego todas las anteriores */
       setTareas(tareaActualizada);
+     
     }
-
-
   }
 
   const eliminarTarea = id => {
