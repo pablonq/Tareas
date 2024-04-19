@@ -1,8 +1,8 @@
-import Tarea from "./Tarea";
-import TareaFormulario from "./TareaFormulario";
-import '../estilos/ComponenteTareaFormulario.css';
+import Tarea from '../Tarea/Tarea';
+import TareaFormulario from '../TareaFormulario/TareaFormulario';
+import './ComponenteTareaFormulario.css';
 import { useState } from "react";
-import BusquedaFormulario from "./BusquedaFormulario";
+import BusquedaFormulario from '../BusquedaFormulario/BusquedaFormulario';
 
 function ComponenteTareaFormulario() {
 

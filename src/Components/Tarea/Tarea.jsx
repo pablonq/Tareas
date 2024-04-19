@@ -1,4 +1,4 @@
-import '../estilos/Tarea.css';
+import './Tarea.css';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Tarea({id, texto, completada, fcionCompletarTarea, fcionEliminarTarea }){ /* "completada" es un props para los efectos */ 

@@ -4,8 +4,20 @@
 - Navarro Pablo FAI-4284
 - Nagel Sabio, Juan Manuel FAI-2595
 
-### `Funciones :`
 
+![alt text](image-1.png)
+
+### `Funciones :`
+- index.js:  En un proyecto de React creado usando Create React App, el      archivo index.js es el punto de entrada de la aplicación. Es donde la  aplicación React se monta en el DOM.  
+- App.js: En un proyecto de React es el archivo donde se define el componente principal de la aplicación. Este componente se renderiza en el archivo "index.js" y es el punto de entrada de la aplicación. En el archivo "App.js" se pueden definir las propiedades, el estado y los métodos del componente principal, así como la estructura de la interfaz de usuario que se mostrará en la aplicación. 
+- index.css:  Contiene los estilos para el punto  de entrada del sitio web.
+- package-json.js: Es un archivo de configuración que contiene información sobre el proyecto, incluyendo sus dependencias, scripts y metadatos. Este archivo es utilizado por el gestor de paquetes npm para administrar las dependencias del proyecto y ejecutar scripts.
+
+### `Librerias utilizadas :`
+- uuid:  Se utiliza para generar un identificador único.
+        Para instalarlo, en la terminal ejecutar 'npm install uuid'.
+        Luego se debe importar 'import { v4 as uuidv4 } from 'uuid' '
+        Cuando querramos asignarle un identificador unico a una variable , usamos 'const id = uuidv4()'.
 
 ## Scripts Disponibles
 

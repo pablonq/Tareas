@@ -1,0 +1,27 @@
+.tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo-contenedor {
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px; /* Altura minima, si se van agregando componentes se va ir expandiendo */
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+  
+}

@@ -1,4 +1,4 @@
-import '../estilos/BusquedaFormulario.css';
+import './BusquedaFormulario.css';
 
 function BusquedaFormulario({valor, onChange}){
   return(
