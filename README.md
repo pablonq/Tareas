@@ -5,7 +5,7 @@
 - Nagel Sabio, Juan Manuel FAI-2595
 
 
-![alt text](image-1.png)
+    ![alt text](image-1.png)
 
 ### `Funciones :`
 - index.js:  En un proyecto de React creado usando Create React App, el      archivo index.js es el punto de entrada de la aplicación. Es donde la  aplicación React se monta en el DOM.  
